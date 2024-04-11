@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <h1>Formulario de Registro</h1>
+    <h3 id="alert"></h3>
+    <form action="procesar_registro.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="tipo_documento">Tipo de Documento:</label>
+        <select id="tipo_documento" name="tipo_documento">
+            <option value="CC">CC</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
+        </select><br><br>
+
+        <label for="numero_documento">Número de Documento:</label>
+        <input type="text" id="numero_documento" name="numero_documento" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="genero_masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="genero_femenino">Femenino</label>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="genero_otro">Otro</label><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="celular">Número de Celular:</label>
+        <input type="tel" id="celular" name="celular" required><br><br>
+
+        <input type="button" value="Registrar" id="boton" onclick="validar()">
+    </form>
+
+    <table>
+        <h4>Tabla de Registros</h4>
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Tipo_Ident.</td>
+                <td>Numero</td>
+                <td>Genero</td>
+                <td>Fecha_Nac</td>
+                <td>Correo</td>
+                <td>Telefono</td>
+                <td>Modificar</td>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>

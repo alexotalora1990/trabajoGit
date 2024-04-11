@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+}
+
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 130%;
+    background: rgb(0, 153, 252);
+    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+}
+
+#alert {
+    color: #faf9f9;
+    position: relative;
+    font-size: 300%;
+    background-color: #ff0000;
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 350%;
+    color: #ffffff;
+    background: rgb(0, 153, 252);
+    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+    height: auto;
+
+
+
+}
+
+label {
+    font-size: 120%;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #b4d6f1;
+
+    color: #050505;
+    font-size: 120%;
+    padding: 1%;
+}
+
+input[type="radio"] {
+    width: 5%;
+    height: 30px;
+
+
+}
+
+input[type="button"] {
+    width: 40%;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 30%;
+    color: #ffffff;
+    font-size: 120%;
+    background: #2d62fd;
+
+    border: none;
+}
+
+input[type="date"] {
+    color: #696968;
+    width: 50%;
+}
+
+#tipo_documento {
+    border: none;
+    width: 30%;
+    height: 40px;
+    color: #696968;
+    font-size: 120%;
+    background-color: #b4d6f1;
+    border: solid 1px #696968;
+    border-radius: 8px;
+}
+
+table {
+    text-align: center;
+    margin-top: 1%;
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    color: #050505;
+
+}
+
+h4 {
+    
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 350%;
+    color: #ffffff;
+    background: rgb(0, 153, 252);
+    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+    height: auto;
+}
+
+
+td {
+    border: solid 2px black;
+    height: 40px;
+
+
+}
+
+thead {
+    background: rgb(0, 153, 252);
+    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+    color: white;
+    height: 40px;
+
+}
+
+@media(max-width:1150px) {
+    form {
+        width: 60%;
+
+    }
+
+    table {
+        width: 70%;
+
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:950px) {
+    form {
+        width: 70%;
+        margin-left: 10%;
+
+    }
+
+    table {
+        width: 70%;
+
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1, h4{
+      font-size: 300%;
+      height: auto;
+    }
+    
+}
+@media(max-width:700px){
+    form {
+        width: 70%;
+        margin-left: 5%;
+
+    }
+
+    table {
+        width: 80%;
+
+        margin-left: 2%;
+        margin-bottom: 5%;
+    }
+    h1, h4{
+      font-size: 200%;
+      height: auto;
+    }  
+}
+    @media(max-width:450px){
+        form {
+            width: 90%;
+            margin-left: 2%;
+            font-size: 100%;
+            margin-right: 2%;
+    
+        }
+    
+        table {
+            width: 80%;
+    
+            margin-left: 2%;
+            margin-bottom: 5%;
+        }
+        h1, h4{
+          font-size: 200%;
+          height: auto;
+        }
+    }
+
