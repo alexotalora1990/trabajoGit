@@ -9,8 +9,8 @@ form {
     padding: 2%;
     border-radius: 10px;
     font-size: 130%;
-    background: rgb(0, 153, 252);
-    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+    background: rgb(240, 16, 184);
+    background: linear-gradient(0deg, rgba(221, 236, 8, 0.897) 0%, rgb(250, 21, 219) 100%);
 }
 
 #alert {
@@ -119,8 +119,8 @@ td {
 }
 
 thead {
-    background: rgb(0, 153, 252);
-    background: linear-gradient(0deg, rgba(0, 153, 252, 0.896796218487395) 0%, rgba(45, 98, 253, 1) 100%);
+    background: rgb(197, 252, 0);
+    background: linear-gradient(0deg, rgba(26, 216, 20, 0.897) 0%, rgba(45, 98, 253, 1) 100%);
     color: white;
     height: 40px;
 
